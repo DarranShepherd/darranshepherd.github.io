@@ -11,8 +11,17 @@ using a PowerShell step in the build pipeline. We wanted to make use of VSO Rele
 Management vNext to be able to stage releases through different environments. This
 post shows how we finally got this up and running.
 
-Build
-=====
+<!-- more -->
+
+* [Build](#build)
+  * [Test](#test)
+  * [Publish](#publish)
+* [Release](#release)
+  * [Deploy](#deploy)
+  * [Reconfigure](#reconfigure)
+* [Conclusion](#conclusion)
+
+## Build
 
 Microsoft's [documentation](https://msdn.microsoft.com/en-us/Library/vs/alm/Build/azure/deploy-aspnet5?f=255&MSPPError=-2147217396)
 gave us the starting point for this step. The PreBuild.ps1 script provided takes care
@@ -21,6 +30,8 @@ based on the solution's global.json and the Visual Studio build step builds and
 packages the web project (using dnu publish under the covers). However, the first
 problem we encountered was how to run the XUnit unit tests and failing the build if
 they don't all pass.
+
+### Test
 
 Our test projects are using xUnit and have a "test" command defined in the
 project.json, allowing them to be executed using `dnx test`.
@@ -61,6 +72,8 @@ Get-ChildItem -Path $PSScriptRoot\test -Filter project.json -Recurse |% {
 }
 {% endhighlight %}
 
+### Publish
+
 The final build step added to the build definition in VSO was to
 package the output of `dnu publish` into a ZIP file suitable for
 deployment with the `Publish-AzureWebSiteProject` commandlet.
@@ -82,5 +95,10 @@ Add-Type -AssemblyName "System.IO.Compression.FileSystem"
 {% endhighlight %}
 
 
-Release
-======= 
+## Release
+
+### Deploy
+
+### Reconfigure
+
+## Conclusion
