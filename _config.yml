@@ -1,5 +1,5 @@
 # Site settings
-title: Darran's random thoughts and witterings
+title: Swim, bike, run, code
 description: > # this means to ignore newlines until "baseurl:"
   Discoveries in building sites on Azure, swimming, biking and running.
 baseurl: "" # the subpath of your site, e.g. /blog/
