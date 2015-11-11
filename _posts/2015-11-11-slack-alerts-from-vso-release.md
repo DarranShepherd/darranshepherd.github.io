@@ -11,7 +11,7 @@ include things like code check in or build completion, but do not have
 any triggers for Release Management. As a work around, we hooked up our
 release definition manually and this post shows how.
 
-![](/img/slackmessage.png)
+![](/img/SlackMessage.png)
 
 <!-- more -->
 
@@ -43,4 +43,4 @@ use of the VSO variables in the arguments to template the message
 posted to Slack, e.g. `"text": "$(Release.ReleaseName) deployment
 complete"`.
 
-![](/img/slackcurltask.png)
+![](/img/SlackCurlTask.png)
