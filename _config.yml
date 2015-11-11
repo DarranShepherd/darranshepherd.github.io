@@ -1,7 +1,7 @@
 # Site settings
 title: Swim, bike, run, code
 description: > # this means to ignore newlines until "baseurl:"
-  Discoveries in building sites on Azure, swimming, biking and running.
+  Discoveries in building sites on Azure and amateur triathlon.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://darranshepherd.github.io" # the base hostname & protocol for your site
 twitter_username: darranshepherd
