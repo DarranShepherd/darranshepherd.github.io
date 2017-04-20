@@ -10,6 +10,6 @@ github_username:  darranshepherd
 # Build settings
 markdown: kramdown
 
-highlighter: pygments
+highlighter: rouge
 
 excerpt_separator: <!-- more -->
