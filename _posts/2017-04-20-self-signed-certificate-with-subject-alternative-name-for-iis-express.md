@@ -5,7 +5,7 @@ date:   2017-04-20 18:00:00
 category: technology
 tags: development, windows, .Net
 ---
-17 years after RFC 2818 deprecated the use of the commonName attribute in an SSL certificate as a means of identifying the domain name for which its valid, [Chrome 58 has enforced it](https://www.chromestatus.com/features/4981025180483584).
+17 years after RFC 2818 deprecated the use of the commonName attribute in an SSL certificate as a means of identifying the domain name for which it's valid, [Chrome 58 has enforced it](https://www.chromestatus.com/features/4981025180483584).
 
 Our first hint at this was when a colleague found his development environment suddenly broken. Chrome was reporting "Your connection is not private" when connecting to IIS Express.
 
