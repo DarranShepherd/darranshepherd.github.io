@@ -2,6 +2,7 @@
 layout: post
 title:  "Web-based Microcontroller Setup - Part 3"
 date:   2025-04-16
+excerpt_separator: <!--more-->
 ---
 
 * [Part 1 - BLE API exploration](/2025-04-15-web-based-microcontroller-setup-part-1)
@@ -12,6 +13,8 @@ date:   2025-04-16
 Arduino sketch and setup webpage
 ================================
 This is the first experiment to test feasibility of the original concept and it did throw up one or two wrinkles that had to be handled. It comprises a very bare bones Arduino sketch sets up a Seeed XIAO ESP32-C6 to advertise the required Bluetooth characteristics and a [companion web page](https://darranshepherd.co.uk/WebBTuC/experiment3.html) that hosts the JavaScript client side of the process.
+
+<!--more-->
 
 Network Scanning
 --------------

@@ -2,6 +2,7 @@
 layout: post
 title:  "Web-based Microcontroller Setup - Part 2"
 date:   2025-04-16
+excerpt_separator: <!--more-->
 ---
 
 * [Part 1 - BLE API exploration](/2025-04-15-web-based-microcontroller-setup-part-1)
@@ -12,6 +13,8 @@ date:   2025-04-16
 Shelly RPC implementation
 =========================
 Shelly expose the JSON RPC API for their IOT relays over a number of channels, an HTTP server, MQTT and also [Bluetooth](https://kb.shelly.cloud/knowledge-base/kbsa-communicating-with-shelly-devices-via-bluetoo). They've also documented the API and how to call it over Bluetooth which made this further exploration of Web Bluetooth a very easy process. If you have any Shelly devices on your network with Bluetooth enabled, open https://darranshepherd.co.uk/WebBTuC/experiment2.html to give it a try for yourself.
+
+<!--more-->
 
 Device Selection
 ----------------
