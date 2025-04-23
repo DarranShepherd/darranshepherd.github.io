@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Web-based Microcontroller Setup - Part 3"
-date:   2025-04-16
+date:   2025-04-17
 excerpt: My first attempt at Web Blueooth communicating with an Arduino sketch running on an ESP32 microcontroller from a web page to configure WiFi and then call an API on the uC.
 ---
 
