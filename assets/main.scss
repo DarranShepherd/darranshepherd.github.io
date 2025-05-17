@@ -2,8 +2,32 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+$content-width:    1200px;
 @import "minima";
 
 .rss-subscribe {
     display: none;
 }
+
+.content { 
+    grid-area: content
+}
+.sidebar { 
+    grid-area: sidebar
+}
+
+.home {
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+      "content"
+      "sidebar";
+  }
+
+  @media (min-width: 800px) {
+    .home {
+      grid-template-columns: 3fr 1fr;
+      grid-template-areas:
+        "content sidebar";
+    }
+  }

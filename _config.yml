@@ -29,6 +29,7 @@ theme: minima
 #  - jekyll-feed
 
 show_excerpts: true
+paginate: 5
 
 # Exclude from processing.
 # The following items will not be processed, by default.
