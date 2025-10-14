@@ -5,9 +5,9 @@ date:   2025-04-16
 excerpt: Part 2 of explorations into using Web Blueooth to communicate with a microcontroller from a web page. This experiment builds a Shelly client using just JavaScript and the Web Bluetooth API to make RPC calls to a Shelly relay.
 ---
 
-* [Part 1 - BLE API exploration](/2025-04-15-web-based-microcontroller-setup-part-1)
+* [Part 1 - BLE API exploration](/2025/04/15/web-based-microcontroller-setup-part-1)
 * **Part 2 - JavaScript Shelly RPC client implementation**
-* [Part 3 - Arduino sketch and setup webpage](/2025-04-17-web-based-microcontroller-setup-part-3)
+* [Part 3 - Arduino sketch and setup webpage](/2025/04/17/web-based-microcontroller-setup-part-3)
 * Part 4 - Prototype implementation
 
 Shelly RPC implementation

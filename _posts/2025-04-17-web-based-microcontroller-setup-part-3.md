@@ -5,8 +5,8 @@ date:   2025-04-17
 excerpt: My first attempt at Web Blueooth communicating with an Arduino sketch running on an ESP32 microcontroller from a web page to configure WiFi and then call an API on the uC.
 ---
 
-* [Part 1 - BLE API exploration](/2025-04-15-web-based-microcontroller-setup-part-1)
-* [Part 2 - JavaScript Shelly RPC client implementation](/2025-04-16-web-based-microcontroller-setup-part-2)
+* [Part 1 - BLE API exploration](/2025/04/15/web-based-microcontroller-setup-part-1)
+* [Part 2 - JavaScript Shelly RPC client implementation](/2025/04/16/web-based-microcontroller-setup-part-2)
 * **Part 3 - Arduino sketch and setup webpage**
 * Part 4 - Prototype implementation
 

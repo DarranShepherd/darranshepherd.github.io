@@ -6,8 +6,8 @@ excerpt: An initial exploration into using Web Blueooth to communicate with a mi
 ---
 
 * **Part 1 - BLE API exploration**
-* [Part 2 - JavaScript Shelly RPC client implementation](/2025-04-16-web-based-microcontroller-setup-part-2)
-* [Part 3 - Arduino sketch and setup webpage](/2025-04-17-web-based-microcontroller-setup-part-3)
+* [Part 2 - JavaScript Shelly RPC client implementation](/2025/04/16/web-based-microcontroller-setup-part-2)
+* [Part 3 - Arduino sketch and setup webpage](/2025/04/17/web-based-microcontroller-setup-part-3)
 * Part 4 - Prototype implementation
 
 When Raspberry Pi [announced SDK support for Bluetooth Low Energy (BLE)](https://www.raspberrypi.com/news/new-functionality-bluetooth-for-pico-w/) on the Pico W in 2023, I recalled seeing a W3C standard for [Web Bluetooth](https://www.w3.org/community/web-bluetooth/) some time before and I started wondering whether this would make for an easy way to get a new device based on the Pico W. A lot of IOT devices walk users through a potentially confusing process of connecting to a WiFi access point hosted by the device, connect to a web server hosted on the microcontroller and then enter the network credentials to allow it to connect to WiFi. The user then has to reconnect to their home WiFi network and finish the configuration, either using that local web server, or perhaps through a cloud interface that the device can now connect to. Could a web page using Web Bluetooth connect to the device using BLE and configure everthing without that network dance? I promptly did nothing with this idea until recently, when I have been playing with BLE on an ESP32 for another project idea. Drawing upon this experience with BLE from the microcontroller side, I experimented a little to see what's possible and this blog series is the culmination of those experiments.
